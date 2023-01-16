@@ -12,6 +12,7 @@ const Home = () => {
 
   useLayoutEffect(() => {
     navigation.setOptions({
+      //removes default styles on header
       headerShown: false,
     });
   }, []);
